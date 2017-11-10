@@ -2,25 +2,25 @@
   "@context": {
     "@vocab": "http://schema.org/",
     "Gene": {
-      "@id": "http://purl.obolibrary.org/obo/OGI_0000004"
+      "@id": "http://purl.obolibrary.org/obo/SO_0000704"
     },
     "Protein": {
-      "@id": "http://purl.obolibrary.org/obo/NCIT_C17021"
+      "@id": "http://purl.obolibrary.org/obo/PR_000000001"
     },
     "transcribedFrom": {
-      "@id": "http://purl.obolibrary.org/obo/RO_0002510",
+      "@id": "http://semanticscience.org/resource/SIO_010081",
       "@type": "@id"
     },
     "associatedDisease": {
-      "@id": "http://purl.obolibrary.org/obo/Orphanet_377788",
-      "@type": "@id"        
+      "@id": "http://semanticscience.org/resource/SIO_000983",
+      "@type": "@id"
     },
     "isRelatedTo": {
-      "@id": "http://www.geneontology.org/formats/oboInOwl#related",
+      "@id": "http://semanticscience.org/resource/SIO_000001",
       "@type": "@id"
     },
     "uniprot": {
-      "@id": "http://purl.obolibrary.org/obo/MI_1097",
+      "@id": "http://identifiers.org/uniprot/",
       "@type": "@id"
     },
     "ncbigene": {
